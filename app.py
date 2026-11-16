@@ -48,12 +48,14 @@ def simulate(df: pd.DataFrame, t: dict) -> pd.DataFrame:
     return out
 
 
-def summarize(sim: pd.DataFrame, minutes_per_review: float, months: float) -> dict:
+def summarize(sim: pd.DataFrame, minutes_per_review: float, months: float, hourly_cost: float = 0.0) -> dict:
     n = len(sim)
     auto = sim["automated"].sum()
+    hours = auto * minutes_per_review / 60 / months
     return {
         "automation_rate": auto / n if n else 0,
-        "hours_saved_per_month": auto * minutes_per_review / 60 / months,
+        "hours_saved_per_month": hours,
+        "dollars_saved_per_month": hours * hourly_cost,
         "threats_let_through": int((sim["outcome"] == "🚨 Threat let through").sum()),
         "real_emails_removed": int((sim["outcome"] == "⚠️ Real email removed").sum()),
         "minor": int((sim["outcome"] == "Minor (clean/spam mix-up)").sum()),
@@ -68,11 +70,11 @@ RISK_PROFILES = {
 }
 
 
-def recommend(df: pd.DataFrame, profile: dict, minutes: float, months: float):
+def recommend(df: pd.DataFrame, profile: dict, minutes: float, months: float, hourly_cost: float = 0.0):
     """Grid search: the setting with the MOST automation that stays inside the risk budget."""
     best = None
     for tc, ts, tt in itertools.product(GRID, GRID, GRID):
-        s = summarize(simulate(df, {"Clean": tc, "Spam": ts, "Threat": tt}), minutes, months)
+        s = summarize(simulate(df, {"Clean": tc, "Spam": ts, "Threat": tt}), minutes, months, hourly_cost)
         if s["threats_let_through"] > profile["threats"]:
             continue
         if s["real_emails_removed"] / len(df) > profile["fp_rate"]:
@@ -86,12 +88,17 @@ def fmt_t(x: float) -> str:
     return "never" if x > 1 else f"{x:.0%}"
 
 
-def explain_offline(t: dict, s: dict, profile_name: str) -> str:
+def fmt_usd(x: float) -> str:
+    return f"${x:,.0f}"
+
+
+def explain_offline(t: dict, s: dict, profile_name: str, hourly_cost: float) -> str:
     return (
         f"**Recommended ({profile_name})**: auto-handle Clean at ≥{fmt_t(t['Clean'])}, "
         f"Spam at ≥{fmt_t(t['Spam'])}, Threat at ≥{fmt_t(t['Threat'])} confidence.\n\n"
         f"On your last month of reports this would have handled **{s['automation_rate']:.0%}** automatically, "
-        f"saving about **{s['hours_saved_per_month']:.1f} admin hours/month**. "
+        f"saving about **{s['hours_saved_per_month']:.1f} admin hours/month** "
+        f"(**≈ {fmt_usd(s['dollars_saved_per_month'])}/month** at {fmt_usd(hourly_cost)}/hour). "
         f"Threats let through: **{s['threats_let_through']}**. Real emails wrongly removed: **{s['real_emails_removed']}**. "
         f"You would still review **{s['to_review']}** emails by hand: the ones the model is unsure about."
     )
@@ -130,6 +137,8 @@ with st.sidebar:
     months = st.number_input("Months of history in this file", 0.5, 24.0, 1.0, 0.5)
     minutes = st.slider("Minutes an admin spends per manual review", 1, 15, 3,
                         help="Assumption: validate with real time-on-task data.")
+    hourly_cost = st.number_input("Admin hourly cost ($)", min_value=0.0, value=45.0, step=5.0,
+                                  help="Fully loaded cost of one admin hour (salary + overhead). Used for $ saved.")
     st.divider()
     st.header("Optional: Claude explanations")
     default_key = os.getenv("ANTHROPIC_API_KEY", "")
@@ -155,11 +164,13 @@ with tab_sim:
     ts = c2.slider("Spam → archive", 0.50, 1.00, 0.90, 0.01)
     tt = c3.slider("Threat → quarantine (PhishRIP)", 0.50, 1.00, 0.80, 0.01)
     sim = simulate(df, {"Clean": tc, "Spam": ts, "Threat": tt})
-    s = summarize(sim, minutes, months)
+    s = summarize(sim, minutes, months, hourly_cost)
 
-    m1, m2, m3, m4, m5 = st.columns(5)
+    m1, m2, m2b, m3, m4, m5 = st.columns(6)
     m1.metric("Automated", f"{s['automation_rate']:.0%}")
     m2.metric("Admin hours saved / month", f"{s['hours_saved_per_month']:.1f}")
+    m2b.metric("Admin cost saved / month", fmt_usd(s["dollars_saved_per_month"]),
+               help=f"Hours saved × {fmt_usd(hourly_cost)}/hour (sidebar).")
     m3.metric("Still to review by hand", s["to_review"])
     m4.metric("🚨 Threats let through", s["threats_let_through"],
               help="Real threats the automation would have released. Should be 0.")
@@ -204,7 +215,7 @@ with tab_rec:
     st.caption(profile["desc"])
     if st.button("Find my best setting", type="primary"):
         with st.spinner("Replaying your history under 1,331 settings..."):
-            best = recommend(df, profile, minutes, months)
+            best = recommend(df, profile, minutes, months, hourly_cost)
         if best is None:
             st.error("No setting meets this risk budget on your data. Keep reviewing manually or relax the budget.")
         else:
@@ -212,7 +223,9 @@ with tab_rec:
             st.session_state["rec"] = (t, s, profile_name)
     if "rec" in st.session_state:
         t, s, pname = st.session_state["rec"]
-        st.markdown(explain_offline(t, s, pname))
+        # Re-price with the current sidebar rate so $ never goes stale next to the shown rate.
+        s = {**s, "dollars_saved_per_month": s["hours_saved_per_month"] * hourly_cost}
+        st.markdown(explain_offline(t, s, pname, hourly_cost))
         if api_key:
             if st.button("✨ Explain this for me and my boss (Claude)"):
                 try:
