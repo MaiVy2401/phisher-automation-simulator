@@ -1,0 +1,401 @@
+id,reported_date,sender,subject,ml_label,ml_confidence,admin_final_label
+21,2026-10-01,deals@officesupplyoutlet.biz,70% off printer toner,Spam,0.848,Spam
+64,2026-10-01,docusign@docs-sign-secure.co,Please review signed agreement,Threat,0.638,Threat
+71,2026-10-01,promo@smile-whitening-deals.net,FREE whitening kits!!!,Spam,0.892,Spam
+78,2026-10-01,office.manager@acmedental.com,Updated holiday schedule,Clean,0.884,Clean
+96,2026-10-01,news@dentaltribune-promo.com,Webinar: boost hygiene revenue,Spam,0.603,Spam
+121,2026-10-01,benefits@acmedental.com,Open enrollment closes Friday,Clean,0.9,Clean
+123,2026-10-01,security@acmedenta1-support.com,URGENT: verify your password today,Threat,0.953,Threat
+171,2026-10-01,it-helpdesk@acmedental.com,Your password expires in 3 days,Clean,0.976,Clean
+212,2026-10-01,dse@docusign.net,Please DocuSign: Lease Renewal 2027,Clean,0.855,Clean
+255,2026-10-01,alerts@chase.com,Your statement is ready,Clean,0.956,Clean
+275,2026-10-01,it-support@acmedental.com,Security training due Nov 30,Clean,0.827,Clean
+285,2026-10-01,alerts@chase.com,Your statement is ready,Clean,0.923,Clean
+370,2026-10-01,it-helpdesk@acmedental.com,Your password expires in 3 days,Clean,0.932,Clean
+7,2026-10-02,office.manager@acmedental.com,Updated holiday schedule,Clean,0.918,Clean
+42,2026-10-02,dse@docusign.net,Please DocuSign: Lease Renewal 2027,Clean,0.704,Clean
+52,2026-10-02,news@dentaltribune-promo.com,Webinar: boost hygiene revenue,Spam,0.8,Spam
+80,2026-10-02,payroll@adp.com,Your pay statement is available,Clean,0.859,Clean
+90,2026-10-02,office.manager@acmedental.com,Updated holiday schedule,Clean,0.859,Clean
+98,2026-10-02,deals@officesupplyoutlet.biz,70% off printer toner,Spam,0.756,Spam
+110,2026-10-02,benefits@acmedental.com,Open enrollment closes Friday,Clean,0.828,Clean
+207,2026-10-02,promo@smile-whitening-deals.net,FREE whitening kits!!!,Spam,0.746,Spam
+242,2026-10-02,contact@dentalsupplyfinder.com,Partnership opportunity,Spam,0.905,Spam
+291,2026-10-02,voicemail@acmedental-voip.net,New voicemail (0:42),Clean,0.548,Threat
+310,2026-10-02,payroll@adp.com,Your pay statement is available,Clean,0.589,Clean
+312,2026-10-02,it-support@acmedental.com,Security training due Nov 30,Clean,0.979,Clean
+348,2026-10-02,newsletter@ada.org,ADA News: this week in dentistry,Spam,0.943,Spam
+357,2026-10-02,dr.patel@acmedental-mail.com,Re: payroll update,Threat,0.689,Threat
+365,2026-10-02,contact@dentalsupplyfinder.com,Partnership opportunity,Spam,0.938,Spam
+375,2026-10-02,deals@officesupplyoutlet.biz,70% off printer toner,Threat,0.879,Spam
+25,2026-10-03,dr.patel@acmedental-mail.com,Re: payroll update,Threat,0.908,Threat
+34,2026-10-03,no-reply@fedex-tracking-alerts.info,Delivery attempt failed,Clean,0.705,Threat
+48,2026-10-03,it-support@acmedental.com,Security training due Nov 30,Clean,0.986,Clean
+54,2026-10-03,it-helpdesk@acmedental.com,Your password expires in 3 days,Clean,0.844,Clean
+59,2026-10-03,calendar-noreply@google.com,Invitation: team huddle,Clean,0.532,Clean
+73,2026-10-03,deals@officesupplyoutlet.biz,70% off printer toner,Spam,0.71,Spam
+87,2026-10-03,office.manager@acmedental.com,Updated holiday schedule,Clean,0.714,Clean
+99,2026-10-03,promo@smile-whitening-deals.net,FREE whitening kits!!!,Spam,0.702,Spam
+140,2026-10-03,no-reply@zoom.us,Cloud recording available,Clean,0.833,Clean
+179,2026-10-03,ceo.drpatel@gmail.com,Quick favor,Threat,0.796,Threat
+192,2026-10-03,newsletter@ada.org,ADA News: this week in dentistry,Clean,0.814,Spam
+343,2026-10-03,marketing@patientreviews-boost.com,Get 5-star reviews on autopilot,Spam,0.648,Spam
+356,2026-10-03,ap@henryschein.com,Invoice #82388 from Henry Schein,Clean,0.859,Clean
+15,2026-10-04,alerts@chase.com,Your statement is ready,Clean,0.932,Clean
+31,2026-10-04,payroll@adp.com,Your pay statement is available,Clean,0.768,Clean
+60,2026-10-04,deals@officesupplyoutlet.biz,70% off printer toner,Spam,0.741,Spam
+101,2026-10-04,office.manager@acmedental.com,Updated holiday schedule,Clean,0.827,Clean
+151,2026-10-04,alerts@chase.com,Your statement is ready,Clean,0.872,Clean
+213,2026-10-04,dse@docusign.net,Please DocuSign: Lease Renewal 2027,Clean,0.825,Clean
+214,2026-10-04,benefits@acmedental.com,Open enrollment closes Friday,Clean,0.736,Clean
+325,2026-10-04,voicemail@acmedental-voip.net,New voicemail (0:42),Threat,0.708,Threat
+369,2026-10-04,news@dentaltribune-promo.com,Webinar: boost hygiene revenue,Spam,0.814,Spam
+12,2026-10-05,dr.patel@acmedental-mail.com,Re: payroll update,Threat,0.562,Threat
+13,2026-10-05,ap@henryschein.com,Invoice #83800 from Henry Schein,Clean,0.786,Clean
+17,2026-10-05,newsletter@ada.org,ADA News: this week in dentistry,Spam,0.823,Spam
+29,2026-10-05,office.manager@acmedental.com,Updated holiday schedule,Clean,0.723,Clean
+38,2026-10-05,benefits@acmedental.com,Open enrollment closes Friday,Spam,0.671,Clean
+70,2026-10-05,no-reply@zoom.us,Cloud recording available,Clean,0.869,Clean
+74,2026-10-05,news@dentaltribune-promo.com,Webinar: boost hygiene revenue,Spam,0.704,Spam
+143,2026-10-05,it-support@acmedental.com,Security training due Nov 30,Clean,0.601,Clean
+167,2026-10-05,ceo.drpatel@gmail.com,Quick favor,Threat,0.926,Threat
+172,2026-10-05,it-support@acmedental.com,Security training due Nov 30,Clean,0.676,Clean
+200,2026-10-05,it-helpdesk@acmedental.com,Your password expires in 3 days,Clean,0.801,Clean
+202,2026-10-05,marketing@patientreviews-boost.com,Get 5-star reviews on autopilot,Spam,0.795,Spam
+221,2026-10-05,payroll@adp.com,Your pay statement is available,Spam,0.627,Clean
+228,2026-10-05,benefits@acmedental.com,Open enrollment closes Friday,Clean,0.857,Clean
+234,2026-10-05,ceo.drpatel@gmail.com,Quick favor,Threat,0.743,Threat
+248,2026-10-05,marketing@patientreviews-boost.com,Get 5-star reviews on autopilot,Spam,0.681,Spam
+250,2026-10-05,deals@officesupplyoutlet.biz,70% off printer toner,Spam,0.92,Spam
+262,2026-10-05,it-support@acmedental.com,Security training due Nov 30,Clean,0.843,Clean
+318,2026-10-05,it-support@acmedental.com,Security training due Nov 30,Spam,0.496,Clean
+328,2026-10-05,no-reply@zoom.us,Cloud recording available,Clean,0.898,Clean
+338,2026-10-05,benefits@acmedental.com,Open enrollment closes Friday,Clean,0.659,Clean
+393,2026-10-05,calendar-noreply@google.com,Invitation: team huddle,Clean,0.69,Clean
+30,2026-10-06,no-reply@zoom.us,Cloud recording available,Clean,0.99,Clean
+93,2026-10-06,calendar-noreply@google.com,Invitation: team huddle,Clean,0.866,Clean
+108,2026-10-06,marketing@patientreviews-boost.com,Get 5-star reviews on autopilot,Spam,0.825,Spam
+122,2026-10-06,no-reply@zoom.us,Cloud recording available,Clean,0.823,Clean
+131,2026-10-06,marketing@patientreviews-boost.com,Get 5-star reviews on autopilot,Spam,0.942,Spam
+137,2026-10-06,it-support@acmedental.com,Security training due Nov 30,Clean,0.926,Clean
+164,2026-10-06,newsletter@ada.org,ADA News: this week in dentistry,Spam,0.731,Spam
+204,2026-10-06,ceo.drpatel@gmail.com,Quick favor,Threat,0.693,Threat
+220,2026-10-06,no-reply@fedex-tracking-alerts.info,Delivery attempt failed,Threat,0.918,Threat
+244,2026-10-06,news@dentaltribune-promo.com,Webinar: boost hygiene revenue,Spam,0.899,Spam
+266,2026-10-06,ap@henryschein.com,Invoice #89626 from Henry Schein,Clean,0.773,Clean
+268,2026-10-06,benefits@acmedental.com,Open enrollment closes Friday,Clean,0.746,Clean
+292,2026-10-06,news@dentaltribune-promo.com,Webinar: boost hygiene revenue,Spam,0.893,Spam
+335,2026-10-06,ap@henryschein.com,Invoice #81078 from Henry Schein,Threat,0.879,Clean
+368,2026-10-06,ap@henryschein.com,Invoice #84280 from Henry Schein,Clean,0.935,Clean
+383,2026-10-06,benefits@acmedental.com,Open enrollment closes Friday,Clean,0.866,Clean
+4,2026-10-07,no-reply@zoom.us,Cloud recording available,Clean,0.943,Clean
+10,2026-10-07,sharepoint@m1crosoft-files.com,Q4 Bonus Structure shared with you,Threat,0.851,Threat
+68,2026-10-07,sharepoint@m1crosoft-files.com,Q4 Bonus Structure shared with you,Threat,0.898,Threat
+91,2026-10-07,no-reply@zoom.us,Cloud recording available,Clean,0.948,Clean
+113,2026-10-07,office.manager@acmedental.com,Updated holiday schedule,Clean,0.865,Clean
+128,2026-10-07,no-reply@fedex-tracking-alerts.info,Delivery attempt failed,Threat,0.553,Threat
+133,2026-10-07,no-reply@zoom.us,Cloud recording available,Clean,0.886,Clean
+145,2026-10-07,marketing@patientreviews-boost.com,Get 5-star reviews on autopilot,Spam,0.96,Spam
+146,2026-10-07,ap@henryschein.com,Invoice #84949 from Henry Schein,Clean,0.753,Clean
+304,2026-10-07,deals@officesupplyoutlet.biz,70% off printer toner,Spam,0.525,Spam
+347,2026-10-07,dse@docusign.net,Please DocuSign: Lease Renewal 2027,Clean,0.646,Clean
+355,2026-10-07,deals@officesupplyoutlet.biz,70% off printer toner,Clean,0.781,Spam
+362,2026-10-07,it-support@acmedental.com,Security training due Nov 30,Clean,0.746,Clean
+2,2026-10-08,benefits@acmedental.com,Open enrollment closes Friday,Clean,0.944,Clean
+53,2026-10-08,office.manager@acmedental.com,Updated holiday schedule,Clean,0.977,Clean
+72,2026-10-08,alerts@chase.com,Your statement is ready,Threat,0.508,Clean
+130,2026-10-08,promo@smile-whitening-deals.net,FREE whitening kits!!!,Spam,0.974,Spam
+163,2026-10-08,promo@smile-whitening-deals.net,FREE whitening kits!!!,Spam,0.789,Spam
+183,2026-10-08,promo@smile-whitening-deals.net,FREE whitening kits!!!,Spam,0.708,Spam
+186,2026-10-08,benefits@acmedental.com,Open enrollment closes Friday,Clean,0.769,Clean
+203,2026-10-08,security@acmedenta1-support.com,URGENT: verify your password today,Threat,0.874,Threat
+274,2026-10-08,dr.patel@acmedental-mail.com,Re: payroll update,Spam,0.576,Threat
+294,2026-10-08,ap@henryschein.com,Invoice #85914 from Henry Schein,Clean,0.849,Clean
+299,2026-10-08,dr.patel@acmedental-mail.com,Re: payroll update,Threat,0.839,Threat
+303,2026-10-08,dr.patel@acmedental-mail.com,Re: payroll update,Threat,0.659,Threat
+323,2026-10-08,security@acmedenta1-support.com,URGENT: verify your password today,Threat,0.976,Threat
+371,2026-10-08,payroll@adp.com,Your pay statement is available,Clean,0.765,Clean
+398,2026-10-08,it-helpdesk@acmedental.com,Your password expires in 3 days,Clean,0.813,Clean
+11,2026-10-09,deals@officesupplyoutlet.biz,70% off printer toner,Spam,0.953,Spam
+39,2026-10-09,contact@dentalsupplyfinder.com,Partnership opportunity,Spam,0.825,Spam
+46,2026-10-09,no-reply@fedex-tracking-alerts.info,Delivery attempt failed,Threat,0.905,Threat
+114,2026-10-09,promo@smile-whitening-deals.net,FREE whitening kits!!!,Spam,0.832,Spam
+154,2026-10-09,ap@henryschein.com,Invoice #86430 from Henry Schein,Clean,0.867,Clean
+155,2026-10-09,alerts@chase.com,Your statement is ready,Clean,0.719,Clean
+184,2026-10-09,alerts@chase.com,Your statement is ready,Clean,0.681,Clean
+201,2026-10-09,it-helpdesk@acmedental.com,Your password expires in 3 days,Clean,0.853,Clean
+219,2026-10-09,newsletter@ada.org,ADA News: this week in dentistry,Spam,0.981,Spam
+263,2026-10-09,dse@docusign.net,Please DocuSign: Lease Renewal 2027,Threat,0.758,Clean
+267,2026-10-09,deals@officesupplyoutlet.biz,70% off printer toner,Threat,0.833,Spam
+311,2026-10-09,marketing@patientreviews-boost.com,Get 5-star reviews on autopilot,Threat,0.664,Spam
+326,2026-10-09,it-support@acmedental.com,Security training due Nov 30,Clean,0.506,Clean
+329,2026-10-09,alerts@chase.com,Your statement is ready,Clean,0.937,Clean
+339,2026-10-09,ap@henryschein.com,Invoice #86011 from Henry Schein,Clean,0.834,Clean
+349,2026-10-09,accounts@henryschein-dental.com,Updated bank details for invoice #85250,Threat,0.893,Threat
+394,2026-10-09,it-helpdesk@acmedental.com,Your password expires in 3 days,Clean,0.865,Clean
+397,2026-10-09,contact@dentalsupplyfinder.com,Partnership opportunity,Spam,0.857,Spam
+3,2026-10-10,promo@smile-whitening-deals.net,FREE whitening kits!!!,Spam,0.959,Spam
+41,2026-10-10,accounts@henryschein-dental.com,Updated bank details for invoice #80707,Threat,0.883,Threat
+65,2026-10-10,contact@dentalsupplyfinder.com,Partnership opportunity,Clean,0.512,Spam
+117,2026-10-10,accounts@henryschein-dental.com,Updated bank details for invoice #85902,Threat,0.656,Threat
+147,2026-10-10,sharepoint@m1crosoft-files.com,Q4 Bonus Structure shared with you,Threat,0.934,Threat
+157,2026-10-10,deals@officesupplyoutlet.biz,70% off printer toner,Spam,0.686,Spam
+174,2026-10-10,benefits@acmedental.com,Open enrollment closes Friday,Clean,0.85,Clean
+230,2026-10-10,no-reply@zoom.us,Cloud recording available,Clean,0.811,Clean
+337,2026-10-10,alerts@chase.com,Your statement is ready,Clean,0.729,Clean
+363,2026-10-10,calendar-noreply@google.com,Invitation: team huddle,Clean,0.893,Clean
+364,2026-10-10,office.manager@acmedental.com,Updated holiday schedule,Clean,0.892,Clean
+47,2026-10-11,office.manager@acmedental.com,Updated holiday schedule,Clean,0.807,Clean
+56,2026-10-11,sharepoint@m1crosoft-files.com,Q4 Bonus Structure shared with you,Threat,0.829,Threat
+81,2026-10-11,payroll@adp.com,Your pay statement is available,Clean,0.863,Clean
+84,2026-10-11,calendar-noreply@google.com,Invitation: team huddle,Clean,0.835,Clean
+142,2026-10-11,newsletter@ada.org,ADA News: this week in dentistry,Spam,0.807,Spam
+144,2026-10-11,dse@docusign.net,Please DocuSign: Lease Renewal 2027,Clean,0.907,Clean
+159,2026-10-11,alerts@chase.com,Your statement is ready,Clean,0.899,Clean
+210,2026-10-11,support@paypa1-billing.com,Your account has been limited,Clean,0.868,Threat
+216,2026-10-11,alerts@chase.com,Your statement is ready,Clean,0.872,Clean
+276,2026-10-11,payroll@adp.com,Your pay statement is available,Clean,0.776,Clean
+286,2026-10-11,deals@officesupplyoutlet.biz,70% off printer toner,Spam,0.934,Spam
+340,2026-10-11,dse@docusign.net,Please DocuSign: Lease Renewal 2027,Clean,0.571,Clean
+359,2026-10-11,deals@officesupplyoutlet.biz,70% off printer toner,Threat,0.747,Spam
+360,2026-10-11,calendar-noreply@google.com,Invitation: team huddle,Clean,0.938,Clean
+380,2026-10-11,it-support@acmedental.com,Security training due Nov 30,Spam,0.568,Clean
+382,2026-10-11,news@dentaltribune-promo.com,Webinar: boost hygiene revenue,Spam,0.834,Spam
+387,2026-10-11,promo@smile-whitening-deals.net,FREE whitening kits!!!,Spam,0.878,Spam
+16,2026-10-12,ap@henryschein.com,Invoice #88791 from Henry Schein,Clean,0.915,Clean
+18,2026-10-12,office.manager@acmedental.com,Updated holiday schedule,Clean,0.923,Clean
+22,2026-10-12,no-reply@fedex-tracking-alerts.info,Delivery attempt failed,Threat,0.861,Threat
+82,2026-10-12,news@dentaltribune-promo.com,Webinar: boost hygiene revenue,Spam,0.679,Spam
+119,2026-10-12,office.manager@acmedental.com,Updated holiday schedule,Clean,0.825,Clean
+165,2026-10-12,it-helpdesk@acmedental.com,Your password expires in 3 days,Clean,0.746,Clean
+195,2026-10-12,newsletter@ada.org,ADA News: this week in dentistry,Spam,0.951,Spam
+217,2026-10-12,promo@smile-whitening-deals.net,FREE whitening kits!!!,Spam,0.846,Spam
+229,2026-10-12,calendar-noreply@google.com,Invitation: team huddle,Clean,0.921,Clean
+246,2026-10-12,calendar-noreply@google.com,Invitation: team huddle,Clean,0.895,Clean
+298,2026-10-12,deals@officesupplyoutlet.biz,70% off printer toner,Spam,0.854,Spam
+302,2026-10-12,ceo.drpatel@gmail.com,Quick favor,Threat,0.674,Threat
+309,2026-10-12,contact@dentalsupplyfinder.com,Partnership opportunity,Spam,0.866,Spam
+361,2026-10-12,news@dentaltribune-promo.com,Webinar: boost hygiene revenue,Spam,0.724,Spam
+366,2026-10-12,no-reply@zoom.us,Cloud recording available,Clean,0.813,Clean
+374,2026-10-12,alerts@chase.com,Your statement is ready,Clean,0.69,Clean
+384,2026-10-12,newsletter@ada.org,ADA News: this week in dentistry,Spam,0.906,Spam
+14,2026-10-13,office.manager@acmedental.com,Updated holiday schedule,Clean,0.598,Clean
+36,2026-10-13,dr.patel@acmedental-mail.com,Re: payroll update,Threat,0.763,Threat
+45,2026-10-13,newsletter@ada.org,ADA News: this week in dentistry,Clean,0.671,Spam
+69,2026-10-13,ap@henryschein.com,Invoice #85602 from Henry Schein,Clean,0.972,Clean
+75,2026-10-13,promo@smile-whitening-deals.net,FREE whitening kits!!!,Spam,0.72,Spam
+83,2026-10-13,sharepoint@m1crosoft-files.com,Q4 Bonus Structure shared with you,Threat,0.783,Threat
+103,2026-10-13,marketing@patientreviews-boost.com,Get 5-star reviews on autopilot,Spam,0.906,Spam
+111,2026-10-13,ap@henryschein.com,Invoice #81347 from Henry Schein,Threat,0.839,Clean
+116,2026-10-13,no-reply@zoom.us,Cloud recording available,Clean,0.719,Clean
+218,2026-10-13,ap@henryschein.com,Invoice #81134 from Henry Schein,Clean,0.868,Clean
+243,2026-10-13,benefits@acmedental.com,Open enrollment closes Friday,Clean,0.968,Clean
+254,2026-10-13,no-reply@zoom.us,Cloud recording available,Clean,0.909,Clean
+322,2026-10-13,news@dentaltribune-promo.com,Webinar: boost hygiene revenue,Spam,0.744,Spam
+350,2026-10-13,marketing@patientreviews-boost.com,Get 5-star reviews on autopilot,Spam,0.922,Spam
+400,2026-10-13,contact@dentalsupplyfinder.com,Partnership opportunity,Spam,0.688,Spam
+61,2026-10-14,deals@officesupplyoutlet.biz,70% off printer toner,Threat,0.519,Spam
+76,2026-10-14,payroll@adp.com,Your pay statement is available,Clean,0.879,Clean
+88,2026-10-14,dse@docusign.net,Please DocuSign: Lease Renewal 2027,Clean,0.926,Clean
+100,2026-10-14,newsletter@ada.org,ADA News: this week in dentistry,Spam,0.755,Spam
+118,2026-10-14,marketing@patientreviews-boost.com,Get 5-star reviews on autopilot,Spam,0.935,Spam
+148,2026-10-14,ap@henryschein.com,Invoice #84214 from Henry Schein,Clean,0.775,Clean
+168,2026-10-14,office.manager@acmedental.com,Updated holiday schedule,Clean,0.908,Clean
+181,2026-10-14,newsletter@ada.org,ADA News: this week in dentistry,Spam,0.816,Spam
+247,2026-10-14,it-helpdesk@acmedental.com,Your password expires in 3 days,Clean,0.732,Clean
+260,2026-10-14,deals@officesupplyoutlet.biz,70% off printer toner,Spam,0.844,Spam
+308,2026-10-14,dr.patel@acmedental-mail.com,Re: payroll update,Clean,0.661,Threat
+320,2026-10-14,docusign@docs-sign-secure.co,Please review signed agreement,Threat,0.751,Threat
+342,2026-10-14,office.manager@acmedental.com,Updated holiday schedule,Clean,0.676,Clean
+381,2026-10-14,newsletter@ada.org,ADA News: this week in dentistry,Spam,0.784,Spam
+5,2026-10-15,no-reply@zoom.us,Cloud recording available,Clean,0.825,Clean
+85,2026-10-15,it-support@acmedental.com,Security training due Nov 30,Clean,0.811,Clean
+150,2026-10-15,newsletter@ada.org,ADA News: this week in dentistry,Spam,0.914,Spam
+153,2026-10-15,dse@docusign.net,Please DocuSign: Lease Renewal 2027,Clean,0.831,Clean
+187,2026-10-15,it-helpdesk@acmedental.com,Your password expires in 3 days,Clean,0.632,Clean
+225,2026-10-15,no-reply@fedex-tracking-alerts.info,Delivery attempt failed,Threat,0.935,Threat
+233,2026-10-15,voicemail@acmedental-voip.net,New voicemail (0:42),Threat,0.963,Threat
+327,2026-10-15,news@dentaltribune-promo.com,Webinar: boost hygiene revenue,Spam,0.768,Spam
+345,2026-10-15,news@dentaltribune-promo.com,Webinar: boost hygiene revenue,Spam,0.822,Spam
+346,2026-10-15,ap@henryschein.com,Invoice #88385 from Henry Schein,Clean,0.829,Clean
+24,2026-10-16,news@dentaltribune-promo.com,Webinar: boost hygiene revenue,Threat,0.681,Spam
+105,2026-10-16,news@dentaltribune-promo.com,Webinar: boost hygiene revenue,Spam,0.841,Spam
+138,2026-10-16,no-reply@zoom.us,Cloud recording available,Clean,0.706,Clean
+162,2026-10-16,ap@henryschein.com,Invoice #83416 from Henry Schein,Spam,0.963,Clean
+177,2026-10-16,ap@henryschein.com,Invoice #80254 from Henry Schein,Clean,0.752,Clean
+185,2026-10-16,payroll@adp.com,Your pay statement is available,Clean,0.722,Clean
+196,2026-10-16,no-reply@zoom.us,Cloud recording available,Clean,0.564,Clean
+223,2026-10-16,deals@officesupplyoutlet.biz,70% off printer toner,Spam,0.833,Spam
+282,2026-10-16,benefits@acmedental.com,Open enrollment closes Friday,Clean,0.763,Clean
+289,2026-10-16,office.manager@acmedental.com,Updated holiday schedule,Clean,0.672,Clean
+307,2026-10-16,marketing@patientreviews-boost.com,Get 5-star reviews on autopilot,Spam,0.754,Spam
+324,2026-10-16,contact@dentalsupplyfinder.com,Partnership opportunity,Spam,0.911,Spam
+331,2026-10-16,no-reply@zoom.us,Cloud recording available,Clean,0.825,Clean
+388,2026-10-16,calendar-noreply@google.com,Invitation: team huddle,Clean,0.965,Clean
+395,2026-10-16,it-support@acmedental.com,Security training due Nov 30,Clean,0.893,Clean
+1,2026-10-17,ap@henryschein.com,Invoice #86468 from Henry Schein,Clean,0.769,Clean
+6,2026-10-17,newsletter@ada.org,ADA News: this week in dentistry,Spam,0.923,Spam
+19,2026-10-17,no-reply@zoom.us,Cloud recording available,Clean,0.932,Clean
+67,2026-10-17,dse@docusign.net,Please DocuSign: Lease Renewal 2027,Clean,0.792,Clean
+127,2026-10-17,contact@dentalsupplyfinder.com,Partnership opportunity,Spam,0.803,Spam
+169,2026-10-17,it-helpdesk@acmedental.com,Your password expires in 3 days,Clean,0.867,Clean
+188,2026-10-17,no-reply@zoom.us,Cloud recording available,Clean,0.491,Clean
+190,2026-10-17,ap@henryschein.com,Invoice #84035 from Henry Schein,Clean,0.681,Clean
+240,2026-10-17,contact@dentalsupplyfinder.com,Partnership opportunity,Spam,0.697,Spam
+271,2026-10-17,contact@dentalsupplyfinder.com,Partnership opportunity,Spam,0.847,Spam
+279,2026-10-17,promo@smile-whitening-deals.net,FREE whitening kits!!!,Spam,0.92,Spam
+284,2026-10-17,no-reply@zoom.us,Cloud recording available,Clean,0.833,Clean
+295,2026-10-17,it-support@acmedental.com,Security training due Nov 30,Clean,0.838,Clean
+321,2026-10-17,no-reply@fedex-tracking-alerts.info,Delivery attempt failed,Threat,0.897,Threat
+125,2026-10-18,promo@smile-whitening-deals.net,FREE whitening kits!!!,Spam,0.745,Spam
+211,2026-10-18,newsletter@ada.org,ADA News: this week in dentistry,Spam,0.692,Spam
+238,2026-10-18,news@dentaltribune-promo.com,Webinar: boost hygiene revenue,Spam,0.994,Spam
+239,2026-10-18,calendar-noreply@google.com,Invitation: team huddle,Clean,0.917,Clean
+277,2026-10-18,it-helpdesk@acmedental.com,Your password expires in 3 days,Spam,0.623,Clean
+280,2026-10-18,security@acmedenta1-support.com,URGENT: verify your password today,Threat,0.941,Threat
+305,2026-10-18,it-helpdesk@acmedental.com,Your password expires in 3 days,Clean,0.878,Clean
+333,2026-10-18,benefits@acmedental.com,Open enrollment closes Friday,Threat,0.484,Clean
+352,2026-10-18,payroll@adp.com,Your pay statement is available,Clean,0.971,Clean
+379,2026-10-18,ceo.drpatel@gmail.com,Quick favor,Spam,0.814,Threat
+386,2026-10-18,ap@henryschein.com,Invoice #86405 from Henry Schein,Clean,0.901,Clean
+8,2026-10-19,ceo.drpatel@gmail.com,Quick favor,Threat,0.818,Threat
+9,2026-10-19,news@dentaltribune-promo.com,Webinar: boost hygiene revenue,Threat,0.654,Spam
+102,2026-10-19,newsletter@ada.org,ADA News: this week in dentistry,Threat,0.813,Spam
+152,2026-10-19,no-reply@zoom.us,Cloud recording available,Clean,0.854,Clean
+180,2026-10-19,calendar-noreply@google.com,Invitation: team huddle,Clean,0.972,Clean
+245,2026-10-19,it-support@acmedental.com,Security training due Nov 30,Clean,0.693,Clean
+252,2026-10-19,no-reply@zoom.us,Cloud recording available,Clean,0.823,Clean
+290,2026-10-19,calendar-noreply@google.com,Invitation: team huddle,Clean,0.849,Clean
+334,2026-10-19,promo@smile-whitening-deals.net,FREE whitening kits!!!,Spam,0.906,Spam
+353,2026-10-19,payroll@adp.com,Your pay statement is available,Clean,0.88,Clean
+26,2026-10-20,deals@officesupplyoutlet.biz,70% off printer toner,Spam,0.772,Spam
+32,2026-10-20,security@acmedenta1-support.com,URGENT: verify your password today,Threat,0.867,Threat
+37,2026-10-20,dse@docusign.net,Please DocuSign: Lease Renewal 2027,Clean,0.979,Clean
+86,2026-10-20,it-helpdesk@acmedental.com,Your password expires in 3 days,Clean,0.764,Clean
+89,2026-10-20,deals@officesupplyoutlet.biz,70% off printer toner,Spam,0.723,Spam
+97,2026-10-20,payroll@adp.com,Your pay statement is available,Clean,0.897,Clean
+209,2026-10-20,calendar-noreply@google.com,Invitation: team huddle,Clean,0.944,Clean
+222,2026-10-20,dr.patel@acmedental-mail.com,Re: payroll update,Threat,0.754,Threat
+226,2026-10-20,benefits@acmedental.com,Open enrollment closes Friday,Clean,0.809,Clean
+231,2026-10-20,newsletter@ada.org,ADA News: this week in dentistry,Spam,0.835,Spam
+232,2026-10-20,marketing@patientreviews-boost.com,Get 5-star reviews on autopilot,Clean,0.351,Spam
+256,2026-10-20,office.manager@acmedental.com,Updated holiday schedule,Clean,0.903,Clean
+259,2026-10-20,news@dentaltribune-promo.com,Webinar: boost hygiene revenue,Spam,0.973,Spam
+278,2026-10-20,it-support@acmedental.com,Security training due Nov 30,Spam,0.649,Clean
+293,2026-10-20,newsletter@ada.org,ADA News: this week in dentistry,Spam,0.861,Spam
+306,2026-10-20,news@dentaltribune-promo.com,Webinar: boost hygiene revenue,Clean,0.782,Spam
+319,2026-10-20,marketing@patientreviews-boost.com,Get 5-star reviews on autopilot,Spam,0.92,Spam
+385,2026-10-20,office.manager@acmedental.com,Updated holiday schedule,Threat,0.567,Clean
+389,2026-10-20,it-helpdesk@acmedental.com,Your password expires in 3 days,Clean,0.795,Clean
+50,2026-10-21,contact@dentalsupplyfinder.com,Partnership opportunity,Spam,0.911,Spam
+55,2026-10-21,newsletter@ada.org,ADA News: this week in dentistry,Spam,0.78,Spam
+63,2026-10-21,marketing@patientreviews-boost.com,Get 5-star reviews on autopilot,Spam,0.974,Spam
+66,2026-10-21,no-reply@zoom.us,Cloud recording available,Clean,0.885,Clean
+94,2026-10-21,ap@henryschein.com,Invoice #84609 from Henry Schein,Spam,0.381,Clean
+149,2026-10-21,contact@dentalsupplyfinder.com,Partnership opportunity,Spam,0.857,Spam
+156,2026-10-21,calendar-noreply@google.com,Invitation: team huddle,Spam,0.667,Clean
+170,2026-10-21,dse@docusign.net,Please DocuSign: Lease Renewal 2027,Clean,0.861,Clean
+176,2026-10-21,promo@smile-whitening-deals.net,FREE whitening kits!!!,Spam,0.858,Spam
+206,2026-10-21,payroll@adp.com,Your pay statement is available,Clean,0.956,Clean
+215,2026-10-21,ap@henryschein.com,Invoice #88873 from Henry Schein,Clean,0.925,Clean
+237,2026-10-21,accounts@henryschein-dental.com,Updated bank details for invoice #88586,Threat,0.914,Threat
+257,2026-10-21,contact@dentalsupplyfinder.com,Partnership opportunity,Spam,0.733,Spam
+269,2026-10-21,news@dentaltribune-promo.com,Webinar: boost hygiene revenue,Spam,0.762,Spam
+270,2026-10-21,alerts@chase.com,Your statement is ready,Clean,0.776,Clean
+272,2026-10-21,contact@dentalsupplyfinder.com,Partnership opportunity,Spam,0.811,Spam
+273,2026-10-21,marketing@patientreviews-boost.com,Get 5-star reviews on autopilot,Spam,0.967,Spam
+317,2026-10-21,calendar-noreply@google.com,Invitation: team huddle,Clean,0.903,Clean
+344,2026-10-21,marketing@patientreviews-boost.com,Get 5-star reviews on autopilot,Spam,0.839,Spam
+378,2026-10-21,it-support@acmedental.com,Security training due Nov 30,Clean,0.682,Clean
+43,2026-10-22,no-reply@zoom.us,Cloud recording available,Threat,0.847,Clean
+77,2026-10-22,marketing@patientreviews-boost.com,Get 5-star reviews on autopilot,Spam,0.844,Spam
+129,2026-10-22,support@paypa1-billing.com,Your account has been limited,Spam,0.538,Threat
+158,2026-10-22,contact@dentalsupplyfinder.com,Partnership opportunity,Spam,0.898,Spam
+258,2026-10-22,deals@officesupplyoutlet.biz,70% off printer toner,Spam,0.9,Spam
+288,2026-10-22,payroll@adp.com,Your pay statement is available,Clean,0.939,Clean
+351,2026-10-22,promo@smile-whitening-deals.net,FREE whitening kits!!!,Spam,0.665,Spam
+396,2026-10-22,dse@docusign.net,Please DocuSign: Lease Renewal 2027,Clean,0.877,Clean
+57,2026-10-23,calendar-noreply@google.com,Invitation: team huddle,Clean,0.903,Clean
+120,2026-10-23,alerts@chase.com,Your statement is ready,Clean,0.971,Clean
+178,2026-10-23,payroll@adp.com,Your pay statement is available,Clean,0.889,Clean
+182,2026-10-23,it-support@acmedental.com,Security training due Nov 30,Clean,0.959,Clean
+205,2026-10-23,it-helpdesk@acmedental.com,Your password expires in 3 days,Clean,0.92,Clean
+227,2026-10-23,marketing@patientreviews-boost.com,Get 5-star reviews on autopilot,Spam,0.836,Spam
+261,2026-10-23,newsletter@ada.org,ADA News: this week in dentistry,Spam,0.754,Spam
+264,2026-10-23,it-helpdesk@acmedental.com,Your password expires in 3 days,Clean,0.867,Clean
+265,2026-10-23,it-support@acmedental.com,Security training due Nov 30,Clean,0.793,Clean
+330,2026-10-23,contact@dentalsupplyfinder.com,Partnership opportunity,Clean,0.457,Spam
+358,2026-10-23,accounts@henryschein-dental.com,Updated bank details for invoice #80684,Threat,0.582,Threat
+392,2026-10-23,alerts@chase.com,Your statement is ready,Spam,0.634,Clean
+35,2026-10-24,calendar-noreply@google.com,Invitation: team huddle,Spam,0.643,Clean
+44,2026-10-24,alerts@chase.com,Your statement is ready,Clean,0.88,Clean
+106,2026-10-24,dse@docusign.net,Please DocuSign: Lease Renewal 2027,Clean,0.934,Clean
+235,2026-10-24,dr.patel@acmedental-mail.com,Re: payroll update,Threat,0.831,Threat
+287,2026-10-24,contact@dentalsupplyfinder.com,Partnership opportunity,Spam,0.606,Spam
+399,2026-10-24,voicemail@acmedental-voip.net,New voicemail (0:42),Threat,0.896,Threat
+92,2026-10-25,it-support@acmedental.com,Security training due Nov 30,Clean,0.723,Clean
+132,2026-10-25,ap@henryschein.com,Invoice #80470 from Henry Schein,Clean,0.943,Clean
+134,2026-10-25,it-helpdesk@acmedental.com,Your password expires in 3 days,Clean,0.948,Clean
+135,2026-10-25,marketing@patientreviews-boost.com,Get 5-star reviews on autopilot,Spam,0.643,Spam
+136,2026-10-25,voicemail@acmedental-voip.net,New voicemail (0:42),Threat,0.861,Threat
+139,2026-10-25,promo@smile-whitening-deals.net,FREE whitening kits!!!,Spam,0.884,Spam
+161,2026-10-25,voicemail@acmedental-voip.net,New voicemail (0:42),Threat,0.907,Threat
+175,2026-10-25,it-helpdesk@acmedental.com,Your password expires in 3 days,Clean,0.82,Clean
+189,2026-10-25,no-reply@zoom.us,Cloud recording available,Clean,0.732,Clean
+197,2026-10-25,ap@henryschein.com,Invoice #85204 from Henry Schein,Clean,0.935,Clean
+208,2026-10-25,office.manager@acmedental.com,Updated holiday schedule,Clean,0.951,Clean
+251,2026-10-25,no-reply@fedex-tracking-alerts.info,Delivery attempt failed,Spam,0.523,Threat
+300,2026-10-25,accounts@henryschein-dental.com,Updated bank details for invoice #82221,Threat,0.903,Threat
+372,2026-10-25,promo@smile-whitening-deals.net,FREE whitening kits!!!,Spam,0.897,Spam
+391,2026-10-25,news@dentaltribune-promo.com,Webinar: boost hygiene revenue,Spam,0.784,Spam
+20,2026-10-26,ap@henryschein.com,Invoice #85827 from Henry Schein,Clean,0.875,Clean
+109,2026-10-26,payroll@adp.com,Your pay statement is available,Clean,0.641,Clean
+160,2026-10-26,alerts@chase.com,Your statement is ready,Clean,0.613,Clean
+198,2026-10-26,newsletter@ada.org,ADA News: this week in dentistry,Spam,0.843,Spam
+241,2026-10-26,news@dentaltribune-promo.com,Webinar: boost hygiene revenue,Spam,0.558,Spam
+249,2026-10-26,ap@henryschein.com,Invoice #81517 from Henry Schein,Clean,0.805,Clean
+283,2026-10-26,it-support@acmedental.com,Security training due Nov 30,Clean,0.668,Clean
+314,2026-10-26,deals@officesupplyoutlet.biz,70% off printer toner,Spam,0.815,Spam
+341,2026-10-26,calendar-noreply@google.com,Invitation: team huddle,Clean,0.919,Clean
+376,2026-10-26,office.manager@acmedental.com,Updated holiday schedule,Clean,0.793,Clean
+27,2026-10-27,support@paypa1-billing.com,Your account has been limited,Threat,0.843,Threat
+28,2026-10-27,security@acmedenta1-support.com,URGENT: verify your password today,Threat,0.873,Threat
+51,2026-10-27,no-reply@zoom.us,Cloud recording available,Clean,0.859,Clean
+95,2026-10-27,it-helpdesk@acmedental.com,Your password expires in 3 days,Clean,0.959,Clean
+124,2026-10-27,contact@dentalsupplyfinder.com,Partnership opportunity,Spam,0.76,Spam
+336,2026-10-27,it-support@acmedental.com,Security training due Nov 30,Clean,0.897,Clean
+354,2026-10-27,newsletter@ada.org,ADA News: this week in dentistry,Spam,0.903,Spam
+367,2026-10-27,contact@dentalsupplyfinder.com,Partnership opportunity,Spam,0.991,Spam
+49,2026-10-28,payroll@adp.com,Your pay statement is available,Clean,0.935,Clean
+62,2026-10-28,office.manager@acmedental.com,Updated holiday schedule,Clean,0.918,Clean
+107,2026-10-28,deals@officesupplyoutlet.biz,70% off printer toner,Clean,0.888,Spam
+115,2026-10-28,newsletter@ada.org,ADA News: this week in dentistry,Spam,0.951,Spam
+173,2026-10-28,contact@dentalsupplyfinder.com,Partnership opportunity,Spam,0.927,Spam
+193,2026-10-28,it-helpdesk@acmedental.com,Your password expires in 3 days,Clean,0.676,Clean
+297,2026-10-28,deals@officesupplyoutlet.biz,70% off printer toner,Spam,0.898,Spam
+313,2026-10-28,dse@docusign.net,Please DocuSign: Lease Renewal 2027,Clean,0.658,Clean
+316,2026-10-28,office.manager@acmedental.com,Updated holiday schedule,Clean,0.842,Clean
+332,2026-10-28,newsletter@ada.org,ADA News: this week in dentistry,Spam,0.658,Spam
+23,2026-10-29,support@paypa1-billing.com,Your account has been limited,Threat,0.88,Threat
+33,2026-10-29,calendar-noreply@google.com,Invitation: team huddle,Clean,0.924,Clean
+79,2026-10-29,contact@dentalsupplyfinder.com,Partnership opportunity,Spam,0.829,Spam
+126,2026-10-29,alerts@chase.com,Your statement is ready,Clean,0.789,Clean
+141,2026-10-29,it-helpdesk@acmedental.com,Your password expires in 3 days,Clean,0.778,Clean
+224,2026-10-29,news@dentaltribune-promo.com,Webinar: boost hygiene revenue,Spam,0.828,Spam
+236,2026-10-29,deals@officesupplyoutlet.biz,70% off printer toner,Spam,0.654,Spam
+253,2026-10-29,it-helpdesk@acmedental.com,Your password expires in 3 days,Clean,0.917,Clean
+281,2026-10-29,newsletter@ada.org,ADA News: this week in dentistry,Spam,0.94,Spam
+296,2026-10-29,support@paypa1-billing.com,Your account has been limited,Threat,0.751,Threat
+377,2026-10-29,office.manager@acmedental.com,Updated holiday schedule,Clean,0.702,Clean
+40,2026-10-30,ap@henryschein.com,Invoice #86968 from Henry Schein,Threat,0.511,Clean
+58,2026-10-30,it-support@acmedental.com,Security training due Nov 30,Clean,0.861,Clean
+104,2026-10-30,dse@docusign.net,Please DocuSign: Lease Renewal 2027,Clean,0.902,Clean
+112,2026-10-30,deals@officesupplyoutlet.biz,70% off printer toner,Spam,0.943,Spam
+166,2026-10-30,benefits@acmedental.com,Open enrollment closes Friday,Clean,0.799,Clean
+191,2026-10-30,news@dentaltribune-promo.com,Webinar: boost hygiene revenue,Spam,0.854,Spam
+194,2026-10-30,newsletter@ada.org,ADA News: this week in dentistry,Spam,0.836,Spam
+199,2026-10-30,it-helpdesk@acmedental.com,Your password expires in 3 days,Clean,0.783,Clean
+301,2026-10-30,ap@henryschein.com,Invoice #89614 from Henry Schein,Clean,0.676,Clean
+315,2026-10-30,dse@docusign.net,Please DocuSign: Lease Renewal 2027,Clean,0.954,Clean
+373,2026-10-30,marketing@patientreviews-boost.com,Get 5-star reviews on autopilot,Spam,0.934,Spam
+390,2026-10-30,news@dentaltribune-promo.com,Webinar: boost hygiene revenue,Spam,0.706,Spam
