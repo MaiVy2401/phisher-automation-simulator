@@ -6,7 +6,7 @@
 - how much work would have been automated, and admin hours saved
 - the exact mistakes that would have happened, ranked by severity (threat let through ≫ real email removed ≫ clean/spam mix-up)
 
-It also recommends the setting with the most automation for a chosen risk appetite (Cautious / Balanced / Aggressive), and Claude can explain it in plain English for the admin and their boss.
+It also recommends the setting with the most automation for a chosen risk appetite (Cautious / Balanced / Maximum savings), and Claude can explain it in plain English for the admin and their boss.
 
 > Personal prototype, not a KnowBe4 product. All data is synthetic (fictional "Acme Dental", 400 reported emails).
 
