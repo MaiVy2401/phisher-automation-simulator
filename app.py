@@ -66,7 +66,7 @@ def summarize(sim: pd.DataFrame, minutes_per_review: float, months: float, hourl
 RISK_PROFILES = {
     "Cautious": {"threats": 0, "fp_rate": 0.005, "desc": "Zero threats let through, almost no real emails removed."},
     "Balanced": {"threats": 0, "fp_rate": 0.02, "desc": "Zero threats let through, a few real emails removed (users can ask for them back)."},
-    "Aggressive": {"threats": 1, "fp_rate": 0.05, "desc": "Maximum time saved; accepts rare mistakes."},
+    "Maximum savings": {"threats": 1, "fp_rate": 0.05, "desc": "Maximum time saved; accepts rare mistakes."},
 }
 
 
