@@ -1,5 +1,7 @@
 # 🎚️ PhishER Automation Confidence Simulator (prototype)
 
+See the full product requirements: [PRD.md](PRD.md)
+
 **Problem.** KnowBe4 PhishER + PhishML can already auto-handle user-reported emails, but only above confidence thresholds the admin picks. Picking a number feels risky, so many admins keep reviewing everything by hand. Customers then say "PhishER takes too much time." The feature exists, but the trust doesn't.
 
 **What this does.** A "what-if" test track. It replays an admin's own past reported emails (ML label + confidence + the admin's final decision) under any threshold setting, and shows:
